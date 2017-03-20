@@ -27,7 +27,9 @@
         q: text,
         image_type: options['image_type'] || 'photo',
         orientation: options['orientation'] || 'horizontal',
-        per_page: options['per_page'] || 50
+        per_page: options['per_page'] || 50,
+        page: options['page'] || 1,
+        response_group: options['response_group'] || 'image_details'
       },
       t = [], key;
 
